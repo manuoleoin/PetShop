@@ -1,6 +1,6 @@
 type  MenuOptions = '' | 'all' | 'dogs' | 'cats' | 'fishes'
 
-export const createMenuObject = (activeMenu: string) => {
+export const createMenuObject = (activeMenu: MenuOptions) => {
     let returnObject = {
         all: false,
         dogs: false,
