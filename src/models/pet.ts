@@ -164,6 +164,6 @@ export const Pet = {
         //     }
         // return (item.name.indexOf(name) > -1);
         // })
-        return data.filter(item => item.name.toLocaleLowerCase().indexOf(name.toLocaleLowerCase()) > -1);
+        return data.filter(item => item.name.toLowerCase().indexOf(name.toLowerCase()) > -1);
     }
 }
